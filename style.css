@@ -1,0 +1,84 @@
+.container {
+    background-color: aqua;
+}
+
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+/*position relative*/
+#first-relative {
+    background-color: brown;
+}
+
+#second-relative {
+    background-color: darkorange;
+
+    position: relative;
+    left: 100px;
+
+}
+
+#third-relative {
+    background-color: silver;
+}
+
+/*position relative*/
+
+/*position absolute*/
+#first-absolute {
+    background-color: brown;
+}
+
+#second-absolute {
+    background-color: darkorange;
+
+    position: absolute;
+    left: 100px;
+
+}
+
+#third-absolute {
+    background-color: silver;
+}
+
+/*position absolute*/
+
+/*position fixed*/
+#first-fixed {
+    background-color: brown;
+}
+
+#second-fixed {
+    background-color: darkorange;
+    position: fixed;
+    left: 100px;
+
+}
+
+#third-fixed {
+    background-color: silver;
+}
+
+/*position fixed*/
+
+/*position sticky*/
+#first-sticky {
+    background-color: brown;
+}
+
+#second-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    left: 100px;
+    background-color: darkorange;
+}
+
+#third-sticky {
+    background-color: silver;
+}
+
+/*position sticky*/
